@@ -1,2 +1,6 @@
 # Almue
-A home-automation solution for the RaspberryPi written in C#
+A simple home-automation solution for the RaspberryPi written in C#
+
+######Description will follow shortly...
+
+![alt text](https://github.com/he4d/Almue/blob/master/AlmueAndroid.png "AlmueAndroid in use..")
