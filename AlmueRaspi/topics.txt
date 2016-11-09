@@ -1,0 +1,6 @@
+﻿almue/config
+
+almue/shutter/{stockwerk}/{beschreibung}
+almue/shutter/{stockwerk}/{beschreibung}/timeron
+almue/shutter/{stockwerk}/{beschreibung}/timeroff
+almue/shutter/{stockwerk}/{beschreibung}/status

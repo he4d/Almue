@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="BrokerAddress">AlmueRaspi IP-Address</string>
+  <string name="Username">Username</string>
+  <string name="Password">Password</string>
+  <string name="Login">Login</string>
+  <string name="SaveLogin">Save Login</string>
+  <string name="Logout">Logout</string>
+  <string name="About">About</string>
+  <string name="Exit">Exit</string>
+  <string name="OpenAll">Open all shutters</string>
+  <string name="CloseAll">Close all shutters</string>
+
+  <string name="Enable">Enable</string>
+  <string name="Enabled">Enabled</string>
+  <string name="Disabled">Disabled</string>
+  <string name="Timer">Timer</string>
+  <string name="OpenTime">Open Time</string>
+  <string name="CloseTime">Close Time</string>
+  <string name="AboutAlmue">AlmueAndroid - A control-app for the Almue home-automation solution</string>
+  <string name="AboutCredits">Copyright by Tobias Tschinkowitz - 2016</string>
+
+  <string name="FailedToConnect">Failed to connect to AlmueRaspi...</string>
+  <string name="ConnectionLost">Connection to AlmueRaspi lost...</string>
+  <string name="SetupOpenTime">Automatic opening-time</string>
+  <string name="SetupCloseTime">Automatic closing-time</string>
+
+  <string name="ShutterDialogException">ShutterDialog exception</string>
+
+  <string name="Opened">Opened</string>
+  <string name="Closed">Closed</string>
+  <string name="On">On</string>
+  <string name="Off">Off</string>
+  <string name="FailState">Failure State</string>
+  <string name="Undefinded">Undefined</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="BrokerAddress">AlmueRaspi IP-Adresse</string>
+  <string name="Username">Benutzername</string>
+  <string name="Password">Passwort</string>
+  <string name="Login">Anmelden</string>
+  <string name="SaveLogin">Daten speichern</string>
+  <string name="Logout">Ausloggen</string>
+  <string name="About">Über</string>
+  <string name="Exit">Beenden</string>
+  <string name="OpenAll">Alle Rolläden öffnen</string>
+  <string name="CloseAll">Alle Rolläden schließen</string>
+
+  <string name="Enable">Aktivieren</string>
+  <string name="Enabled">Aktiviert</string>
+  <string name="Disabled">Deaktiviert</string>
+  <string name="Timer">Timer</string>
+  <string name="OpenTime">Öffnen</string>
+  <string name="CloseTime">Schließen</string>
+  <string name="AboutAlmue">AlmueAndroid - Eine Steuerungs-App für die Almue-Heimautomations Lösung</string>
+  <string name="AboutCredits">Copyright 2016 - Tobias Tschinkowitz</string>
+
+  <string name="FailedToConnect">Konnte nicht zu AlmueRaspi verbinden...</string>
+  <string name="ConnectionLost">Verbindung zu AlmueRaspi verloren...</string>
+  <string name="SetupOpenTime">Automatische Öffnungszeit</string>
+  <string name="SetupCloseTime">Auomatische Schließzeit</string>
+
+  <string name="ShutterDialogException">ShutterDialog exception</string>
+
+  <string name="Opened">Geöffnet</string>
+  <string name="Closed">Geschlossen</string>
+  <string name="On">An</string>
+  <string name="Off">Aus</string>
+  <string name="FailState">Fehlerzustand</string>
+  <string name="Undefinded">Undefiniert</string>
+</resources>

@@ -1,0 +1,55 @@
+﻿{
+  "broker": {
+    "ip": "127.0.0.1",
+    "port": 1883,
+    "user": "alex",
+    "password": "testpw123"
+  },
+  "devices": {
+    "shutters": [
+      {
+        "description": "Technik",
+        "floor": "Keller",
+        "openPin": "P1Pin40",
+        "closePin": "P1Pin37",
+        "completeWayInSeconds": 10,
+        "emergencyEnabled": false,
+        "disabled": false,
+        "timerEnabled": true,
+        "openTime": "17:20:00",
+        "closeTime": "17:25:00",
+        "deviceStatus": "Undefined"
+      },
+      {
+        "description": "Büro",
+        "floor": "Keller",
+        "openPin": "P1Pin38",
+        "closePin": "P1Pin35",
+        "completeWayInSeconds": 12,
+        "emergencyEnabled": false,
+        "disabled": false,
+        "timerEnabled": true,
+        "openTime": "20:15:00",
+        "closeTime": "23:50:00",
+        "deviceStatus": "Undefined"
+      },
+      {
+        "description": "Wohnzimmer",
+        "floor": "Erdgeschoss",
+        "openPin": "P1Pin36",
+        "closePin": "P1Pin33",
+        "completeWayInSeconds": 12,
+        "emergencyEnabled": false,
+        "disabled": false,
+        "timerEnabled": false,
+        "openTime": "20:15:00",
+        "closeTime": "23:50:00",
+        "deviceStatus": "Undefined"
+      }
+    ],
+    "lightings": [
+    ],
+    "windMonitors": [
+    ]
+  }
+}

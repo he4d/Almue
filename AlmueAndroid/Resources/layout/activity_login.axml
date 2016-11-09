@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:gravity="center">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+        <ImageView
+            android:src="@drawable/AlmueLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+    <!--  Broker Label -->
+        <EditText
+            android:id="@+id/txtBroker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/BrokerAddress" />
+    <!--  User Label -->
+        <EditText
+            android:id="@+id/txtUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/Username" />
+    <!--  Password Label -->
+        <EditText
+            android:id="@+id/txtPw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/Password" />
+        <CheckBox
+            android:id="@+id/chkSaveLoginData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SaveLogin"
+            android:layout_gravity="right" />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:enabled="false"
+            android:text="@string/Login" />
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pgBar"
+            android:indeterminate="true"
+            android:visibility="invisible" />
+    </LinearLayout>
+</LinearLayout>

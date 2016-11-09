@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AlmueRaspi.Configuration.ConfigurationController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAoIAAAABAAAAAAAAAIABAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Configuration\ConfigurationController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AlmueRaspi.Configuration.ConfigurationObject" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\ConfigurationObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlmueRaspi.DeviceController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCCAAACIBgAAAAAAABAAAABAACAAIAAAACAAAAAA=</HashCode>
+      <FileName>DeviceController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AlmueRaspi.MainApplication" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAECAAAAIAAAAAAAAAAAAIBAAAAAA=</HashCode>
+      <FileName>MainApplication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlmueRaspi.NativeMethods" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>NativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlmueRaspi.OutputTester" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAASAAAAAAgAAAAAAAAAAAAAAAEAAACAAAAAA=</HashCode>
+      <FileName>OutputTester.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AlmueRaspi.Devices.GpioDevice" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAgAAgAAAAAAAAAAAAAAIACAAAAAAAAAAA=</HashCode>
+      <FileName>Devices\GpioDevice.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AlmueRaspi.Devices.Lighting" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAARAAMhAQhCAACIAAAAAABAAIIAAAAAQAIBAAU=</HashCode>
+      <FileName>Devices\Lighting.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.719" />
+  </Class>
+  <Class Name="AlmueRaspi.Devices.Shutter" Collapsed="true">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIIARACMgIQhCAACIAAAIAAhAAIAAIAAAQAKgAAc=</HashCode>
+      <FileName>Devices\Shutter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.728" />
+  </Class>
+  <Class Name="AlmueRaspi.Devices.WindMonitor" Collapsed="true">
+    <Position X="5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAARAAIgAAhAACCAAAAAABAAAIAAAAAAAEAAACE=</HashCode>
+      <FileName>Devices\WindMonitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.701" />
+  </Class>
+  <Class Name="AlmueRaspi.Interfaces.ConfigPropertyChangedEventArgs" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\INotifyConfigPropertyChanged.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlmueRaspi.MQTT.MqttController" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEBAAIIAgAAAgAAAAAAAAAAAAQQAMAAAAAAAAAA=</HashCode>
+      <FileName>MQTT\MqttController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlmueRaspi.MQTT.MqttDeviceEventArgs" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIgAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAIAAEAAA=</HashCode>
+      <FileName>MQTT\MqttDeviceEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlmueRaspi.MQTT.MqttTopicGenerator" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>MQTT\MqttTopicGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlmueRaspi.Scheduler.DeviceScheduler" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAIAAAAAAAABAAAQAJCACAAAAAAAAgAAEAA=</HashCode>
+      <FileName>Scheduler\DeviceScheduler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlmueRaspi.Scheduler.TimeConversionExtensions" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Scheduler\TimeConversionExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlmueRaspi.Scheduler.Jobs.ShuttableCloseJob" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scheduler\Jobs\ShuttableCloseJob.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AlmueRaspi.Scheduler.Jobs.ShuttableOpenJob" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scheduler\Jobs\ShuttableOpenJob.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AlmueRaspi.Scheduler.Jobs.SwitchableOffJob" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scheduler\Jobs\SwitchableOffJob.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AlmueRaspi.Scheduler.Jobs.SwitchableOnJob" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scheduler\Jobs\SwitchableOnJob.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="AlmueRaspi.Interfaces.ICanBeDisabled" Collapsed="true">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICanBeDisabled.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AlmueRaspi.Interfaces.IConfigurationController" Collapsed="true">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Interfaces\IConfigurationController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AlmueRaspi.Interfaces.IDevice" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAgAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDevice.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AlmueRaspi.Interfaces.IEmergencyReceiver" Collapsed="true">
+    <Position X="15.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IEmergencyReceiver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AlmueRaspi.Interfaces.INotifyConfigPropertyChanged" Collapsed="true">
+    <Position X="17.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Interfaces\INotifyConfigPropertyChanged.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AlmueRaspi.Interfaces.INotifyEmergencyReceivers" Collapsed="true">
+    <Position X="12" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\INotifyEmergencyReceivers.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AlmueRaspi.Interfaces.IProvideDeviceStatus" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IProvideDeviceStatus.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AlmueRaspi.Interfaces.ISchedulable" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAIAAAAAAAAAAAAAAAAAAIAAAE=</HashCode>
+      <FileName>Interfaces\ISchedulable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AlmueRaspi.Interfaces.IShuttable" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Interfaces\IShuttable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AlmueRaspi.Interfaces.IShutter" Collapsed="true">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Interfaces\IShutter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AlmueRaspi.Interfaces.IStoppable" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IStoppable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AlmueRaspi.Interfaces.ISwitchable" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Interfaces\ISwitchable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="AlmueRaspi.Interfaces.DeviceStatus" Collapsed="true">
+    <Position X="12" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAACAAKA=</HashCode>
+      <FileName>Interfaces\IProvideDeviceStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AlmueRaspi.MQTT.MqttDeviceActions" Collapsed="true">
+    <Position X="15.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAIAAAAAAIAIAAAAAAAggAIAAAAAAIgAAAAOAAIg=</HashCode>
+      <FileName>MQTT\MqttDeviceActions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AlmueRaspi.Scheduler.Jobs.JobActions" Collapsed="true">
+    <Position X="13.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAGAAIA=</HashCode>
+      <FileName>Scheduler\Jobs\JobActions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
